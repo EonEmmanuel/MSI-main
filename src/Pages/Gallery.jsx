@@ -187,73 +187,73 @@ const FontImport = () => (
 const TEAM = [
   {
     id: 1,
-    name: "Samuel Eto'o Fils",
-    role: "Chief Executive Officer",
+    name: "Herve Moukoury",
+    role: "Directeur General",
     category: "EXECUTIVE",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725493/DSC_7643_s63a5i.jpg",
     bio: "Visionary leader driving MSI TV to new heights in sports broadcasting across Africa.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 2,
-    name: "Sarah Jenkins",
-    role: "Lead News Anchor",
-    category: "JOURNALIST",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800",
+    name: "Herve K",
+    role: "Directeur De L'Information",
+    category: "EXECUTIVE",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725489/DSC_7618_gopaf8.jpg",
     bio: "Award-winning journalist with over 15 years of experience in international sports reporting.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 3,
-    name: "Marcus Rashford",
-    role: "Head of Programming",
-    category: "EXECUTIVE",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=800",
+    name: "Renaud Inang",
+    role: "REC",
+    category: "JOURNALIST",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725484/DSC_7596_zsgtbb.jpg",
     bio: "Strategic mastermind behind our most successful original series and live events.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 4,
-    name: "Elena Rodriguez",
-    role: "Senior Sports Analyst",
+    name: "Alex Lembe",
+    role: "JOURNALIST",
     category: "JOURNALIST",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=800",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725472/DSC_7572_wvrifq.jpg",
     bio: "Expert tactical analyst specializing in European and African football leagues.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 5,
-    name: "David Chen",
+    name: "William Meli",
     role: "Field Correspondent",
     category: "JOURNALIST",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725470/DSC_7545_o4waqm.jpg",
     bio: "On-the-ground reporter bringing live updates from major stadiums globally.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 6,
-    name: "Amara Okafor",
+    name: "Esther Otto",
     role: "Documentary Director",
     category: "CREATIVE",
-    image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=800",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725492/DSC_7632_fzbgop.jpg",
     bio: "Telling human stories behind the athletes through cinematic documentaries.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 7,
-    name: "Thomas Muller",
-    role: "Technical Director",
-    category: "EXECUTIVE",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
+    name: "Jean Charles Ndoumbe Kingue",
+    role: "CONSULTANT",
+    category: "JOURNALIST SPORTIF",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725470/DSC_7558_jrizh9.jpg",
     bio: "Ensuring flawless broadcasting standards and implementing 4K technology.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   },
   {
     id: 8,
-    name: "Fatima Diop",
+    name: "Mac Donald",
     role: "Digital Content Lead",
-    category: "CREATIVE",
-    image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2a04?auto=format&fit=crop&q=80&w=800",
+    category: "RESPONSABLE DE LA PRODUCTION",
+    image: "https://res.cloudinary.com/dv9ef6mcp/image/upload/v1774725472/DSC_7566_vimfnb.jpg",
     bio: "Pioneering our social media presence and interactive fan platforms.",
     socials: { twitter: "#", linkedin: "#", instagram: "#" }
   }
