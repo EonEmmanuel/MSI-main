@@ -9,6 +9,7 @@ import Programs from "./Pages/Programs"
 import About from "./Pages/About"
 import Gallery from "./Pages/Gallery"
 import Articles from "./Pages/Articles"
+import ArticleDetails from './Pages/ArticleDetails'
 import FooterComponent from './Components/FooterComponent'
 import Header from './Components/Header'
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/about' element={<About />} />
                 <Route path='/gallery' element={<Gallery />} />
                 <Route path='/articles' element={<Articles />} />
+                <Route path='/articles/:id' element={<ArticleDetails />} />
               </Routes>
             <FooterComponent />
           </BrowserRouter>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { 
   Clock, 
   User, 
@@ -299,8 +299,9 @@ export default function Articles() {
             <div className="lg:w-2/3">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                 {currentArticles.map((article, idx) => (
-                  <article 
+                  <Link 
                     key={article.id} 
+                    to={`/articles/${article.id}`}
                     className="fade-up group h-full"
                     style={{ animationDelay: `${idx * 100}ms` }}
                   >
@@ -361,7 +362,7 @@ export default function Articles() {
                         </div>
                       </div>
                     </div>
-                  </article>
+                  </Link>
                 ))}
               </div>
 
